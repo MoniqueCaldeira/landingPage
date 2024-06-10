@@ -1,0 +1,165 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background-color: #00003b;
+   
+}
+
+.menu{
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   position: fixed;
+   width: 100%;
+   z-index: 5;
+}
+
+.menu h1{
+   margin: 20px 0px 20px 30px;
+   font-family: 'Rubik', sans-serif;
+   color: #00003b;
+}
+
+.links a{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 30px;
+   font-family: 'Rubik', sans-serif;
+   color: #00003b;
+}
+
+.links ul{
+   list-style: none;
+   display: flex;
+}
+
+.conteudo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 700px;
+}
+
+.conteudo-texto{
+   color:aliceblue;
+   font-family: 'Rubik', sans-serif;
+   width: 500px;
+   text-align: justify;
+}
+
+.conteudo-texto h2{
+   font-size: 65px;
+   margin-bottom: 30px;
+}
+
+.conteudo-texto p{
+   font-size: 20px;
+}
+
+.conteudo-img{
+   width: 500px;
+}
+
+.conteudo-img img{
+   width:100%;
+  
+}
+
+
+.card-container{
+   background-color: aliceblue;
+   border-radius: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.card-conteudo{
+   background-color: #000032;
+   margin: 30px;
+   margin-top: 100px;
+   border-radius: 70px;
+   width: 330px;
+   height: 370px;
+   
+}
+
+.card-conteudo img{
+   width: 50%;
+   position: relative;
+   top: -50px;
+}
+
+.card-conteudo h2{
+   font-size: 40px;
+   color: deeppink;
+   position: relative;
+   top: -40px;
+}
+
+.card-conteudo p{
+   font-size: 22px;
+   color:aliceblue;
+   margin-top: 20px;
+   position: relative;
+   top: -30px;
+}
+
+.button{
+   width: 120px;
+   height: 50px;
+   border-radius: 50px;
+   font-size: 18px;
+   cursor: pointer;
+   position: relative;
+   top: 50px;
+}
+
+.button:hover{
+   width: 130px;
+   height: 55px;
+   background-color:deeppink;
+   color: aliceblue;
+}
+
+
+.rodape{
+   background-color: #00003b;
+   height: 100px;
+}
+
+.rodape-conteudo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 30px;
+}
+
+.rodape-conteudo img{
+   width: 30px;
+   margin-left: 10px;
+}
+
+.rodape-conteudo p{
+   font-size: 22px;
+   color:aliceblue;
+}
+
+.rodape-conteudo img {
+   animation: pulse 0.7s infinite;
+   display: table;
+   animation-direction: alternate;
+   -webkit-animation-name: pulse;
+   animation-name: pulse;
+ }
+ 
+ 
